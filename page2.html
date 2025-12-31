@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy New Year 2026</title>
+  <meta name="viewport" content="width=1000, user-scalable=no">
+  <link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+  <link rel="stylesheet" href="./style3.css">
+ <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  crossorigin="anonymous">
+
+
+</head>
+<body>
+  <div class="feliz">Happy New Year</div>
+  <div class="ano_novo">
+    <span class="num">202</span>
+    <span class="seis">5</span>
+    <span class="sete">6</span>
+    <div class="balao"></div>
+  </div>
+  <div class="fogos">
+    <div class="f1">
+      <span><i></i></span>
+      <span><i></i></span>
+      <span><i></i></span>
+    </div>
+    <div class="f2">
+      <span><i></i></span>
+      <span><i></i></span>
+      <span><i></i></span>
+    </div>
+    <div class="f3">
+      <span><i></i></span>
+      <span><i></i></span>
+      <span><i></i></span>
+    </div>
+    <div class="f4">
+      <span><i></i></span>
+      <span><i></i></span>
+      <span><i></i></span>
+    </div>
+  </div>
+  
+
+ <footer style="
+  position: fixed;
+  bottom: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 18px;
+  z-index: 9999;
+">
+
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/vibes.by.ayush?igsh=ODBpYXh1M29uaGt5&utm_source=qr" target="_blank" aria-label="Instagram">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+      alt="Instagram"
+      width="46"
+      height="46"
+      loading="lazy"
+    />
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/aditya-sain-a8b794385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="LinkedIn">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+      alt="LinkedIn"
+      width="46"
+      height="46"
+      loading="lazy"
+    />
+  </a>
+  <div class="footer-credit">
+  Crafted with <span>❤</span> by Aditya
+</div>
+
+
+</footer>
+
+<script>
+  // If refreshed, go back to Page 1
+  if (performance.navigation.type === 1) {
+    window.location.href = "index.html";
+  }
+
+  localStorage.setItem("page", "2");
+
+  // Auto go to Page 3
+  setTimeout(() => {
+    document.body.classList.add("fade-out");
+
+    setTimeout(() => {
+      window.location.href = "page3.html";
+    }, 1000);
+  }, 11000)
+</script>
+  
+
+
+</body>
+</html>
